@@ -1,8 +1,7 @@
-lst = [1, 3.4, 'salom', 23, 3.6]
-numbers_count=0
-for i in lst:
+lst = [1, 2, 3, 4, 5, 6]
+numbers_count = 0
+for i in lst*2:
     if isinstance(i, int):
-        numbers_count += 1
-
+        pass
 
 print(numbers_count)
