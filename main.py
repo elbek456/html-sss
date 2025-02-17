@@ -4,4 +4,3 @@ for i in lst*2:
     if isinstance(i, int):
         pass
 
-print(numbers_count)
